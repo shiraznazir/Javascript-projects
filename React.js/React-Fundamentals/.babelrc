@@ -1,0 +1,17 @@
+{
+    "presets": [
+      "latest",
+      "react"
+    ],
+    "plugins": [
+      "react-css-modules"
+    ],
+    "env": {
+      "production": {
+        "compact": true,
+        "comments": false,
+        "minified": true
+      }
+    },
+    "sourceMaps": true
+  }

@@ -1,0 +1,32 @@
+
+.inactive{
+    color: #ddd;
+    background: white;
+    cursor: none;
+}
+.correct{
+    color: black;
+}
+.btn{
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    text-align: auto;
+    margin-top: 25px;
+}
+.opt{
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+}
+.ques{
+    display: block;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+.message{
+    text-align: center;
+    padding: 10px;
+}

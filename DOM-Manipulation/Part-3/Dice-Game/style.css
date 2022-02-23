@@ -1,0 +1,58 @@
+body{
+    background-color: blanchedalmond;
+}
+
+*{
+    box-sizing: border-box;
+}
+.viewer{
+    display: inline-block;
+    width: 220px;
+    height: 180px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.viewer span{
+    display: block;
+}
+
+.viewer span:first-child{
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.viewer span:last-child{
+    color: black;
+    text-align: center;
+    font-size: 3em;
+}
+
+.output{
+    width: 440px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.dot{
+    width: 100%;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.parentDice{
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.btn{
+    width: 440px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 2em;
+}

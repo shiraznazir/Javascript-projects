@@ -1,0 +1,29 @@
+body{
+    background-color: bisque;
+}
+*{
+    box-sizing: border-box;
+}
+.output{
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid black;
+}
+.main{
+    width: 100%;
+    line-height: 50px;
+    font-size: 3em;
+    text-align: right;
+    border: 3px solid black;
+}
+
+.container{
+    width: 100%;
+}
+
+.btn{
+    width: 23%;
+    font-size: 2em;
+    margin: 1%;
+    border-radius: 10px;
+}

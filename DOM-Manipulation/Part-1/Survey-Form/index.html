@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Build a Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Note: This is the form for the survey for the production of 
+        crops for increment for the production rate. </p>
+    
+    <form id="survey-form" required:true>
+        <label id="name-label" for="name">Enter your Name :</label>
+        <input id="name" type="text" placeholder="Enter your Name: " required >
+        <br>
+        <label id="email-label" for="email">Enter your Email Address :</label>
+        <input id="email" type="email" placeholder="Enter the email Address :" required >
+        <br>
+        <label id="number-label" for="number">Enter your Number :</label>
+        <input id="number" type="number" placeholder="Enter the number" min="0" max="100" required>
+        <br>
+        <p>Select your Crop Seasons : </p>
+        <select id="dropdown" name="types-of-crops" >
+            <option value="">--Please choose an option--</option>
+            <option value="kharif-crops" >Kharif Crops</option>
+            <option value="zaid-crops" >Zaid Crops</option>
+            <option value="rabi-crops" >Rabi Crops</option>
+            <option value="" ></option>
+        </select>
+       <div id="radio">
+           <p>Select your Gender : </p>
+        <div>
+            <input id="male" type="radio" name="gender" >
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input id="female" type="radio" name="gender" >
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input id="others" type="radio" name="gender" >
+            <label for="others">Others</label>
+        </div>
+
+        <p>Apart from agriculture do you do some other work for earning : </p>
+        <div>
+            <input id="yes" type="radio" name="work" value="yes">
+            <label for="yes">Yes</label>
+        </div>
+        <div>
+            <input id="no" type="radio" name="work" value="no">
+            <label for="no">No</label>
+        </div>
+       </div>
+
+       <div id="checkbox">
+        <p>Select your category : </p>
+     <div>
+         <input id="upgrade" type="checkbox" name="category" >
+         <label for="upgrade">Upgrade</label>
+     </div>
+     <div>
+         <input id="others" type="checkbox" name="category" >
+         <label for="others">Not Upgrade</label>
+     </div>
+    </div>
+    <br>
+    <label for="comment">Please comment for better options : </label>
+    <br>
+    <textarea id="comment" rows="5" cols="33"></textarea>
+    <br>
+    <input id="submit" type="submit">
+    </form>
+</body>
+</html>

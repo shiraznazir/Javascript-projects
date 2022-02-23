@@ -1,0 +1,22 @@
+body{
+    background: pink;
+}
+
+.thumb{
+    max-height: 100px;
+}
+
+.popup{
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: rgba(0,0,0,.66);
+}
+.popup img{
+    max-width: 100%;
+    margin: auto;
+    border: 5px solid white;
+    box-shadow: 10px 10px grey;
+}

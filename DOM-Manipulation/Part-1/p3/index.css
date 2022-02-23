@@ -1,0 +1,23 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    top: 0px;
+    animation: toggleColors 2000ms linear infinite;
+}
+
+@keyframes toggleColors {
+    0% {
+        background: red;
+        top : 0px;
+    }
+    50% {
+        background: yellow;
+        top : 150px;
+    }
+    100% {
+        background: blue;
+        top : 0px;
+    }
+}

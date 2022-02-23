@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+}
+body{
+    min-height: 100vh;
+    background: grey;
+    display: flex;
+    flex-direction: row;
+}
+Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+Header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+Header nav ul li{
+    margin: 2px;
+    padding: 10px;
+    list-style: none;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input{
+    width: 275px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+button{
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+Footer nav ul{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+Footer nav ul li{
+    margin: 2px;
+    padding: 10px;
+    list-style: none;
+}

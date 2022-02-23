@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(194, 219, 211);
+}
+.myText{
+    display: none;
+    width: 100%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    max-height: 100px;
+    padding: 5px;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.5em;
+    background-color:blanchedalmond;
+    padding: 5px;
+}
+
+.active{
+    display: block !important;
+}
